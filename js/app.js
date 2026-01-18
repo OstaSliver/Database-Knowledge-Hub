@@ -8,6 +8,14 @@ const app = {
     filterReference(); // เรียก function จริง
   },
 
+  handleAnswer(selectedIndex) {
+    handleAnswer(selectedIndex);
+  },
+
+  nextQuestion() {
+    nextQuestion();
+  },
+
   router(mode) {
     state.currentMode = mode;
     const container = document.getElementById("app-container");
