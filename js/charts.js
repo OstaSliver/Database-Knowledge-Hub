@@ -6,7 +6,7 @@ function renderCharts(correctCount, categories) {
             labels: ['ถูกต้อง', 'ผิดพลาด'],
             datasets: [{
                 data: [correctCount, quizData.length - correctCount],
-                backgroundColor: ['#48BB78', '#F56565'],
+                backgroundColor: ['#19b259', '#f04040'],
                 borderWidth: 0
             }]
         },
